@@ -1,0 +1,116 @@
+
+/*==================== PC================= */
+@media  (min-width:64em) {
+    
+}
+
+@media  (max-width:63.9375em) {
+    .contact-section .content-contact{
+        line-height: 2;
+    }
+
+    .contact-link{
+        opacity: 0.8;
+    }
+    
+}
+/* ===================TABLET============== */
+@media (min-width:46.25em) and (max-width:63.9375em) {
+    .content-section{
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+}
+/* ==================MOBILE============== */
+@media  (max-width:46.1875em) {
+    .mt-8{
+        margin-top: 8px;
+    }
+
+    .mt-16{
+        margin-top: 16px;
+    }
+
+    .s-full-width{
+        width: 100% !important;
+    }
+
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav > li{
+        display: block;    
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    .content-list{
+        padding: 17px 0px;
+    }
+
+    .content-list .content-item .content-img {
+        width: 60%;
+    }
+
+    .content-list .content-item .content-name {
+        margin: 30px 0 15px 0;
+    }  
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav li a{
+        padding: 1px 21px;
+    }
+
+    #nav .subnav li a{
+        color: #fff;
+        padding: 0px 41px;
+    }
+
+    #nav .subnav li:hover a{
+        color: #000;
+        background-color: #ccc;
+    }
+
+    #header-section{
+        overflow: hidden;
+    }
+
+    #header-section .mobile-menu-btn{
+        display: block;
+    }
+
+    .heading-search .nav-heading-search{
+        display: none;
+    }
+
+    .content-section{
+        max-width: 100%;
+        padding: 64px 16px;
+    }
+
+    .content-input{
+        padding: 15px 20px;
+    }
+
+    .modal-container{
+        width: 60%;
+    }
+
+    .last-footer li i{
+        font-size: 40px;
+        margin: 0px 6px;
+    }
+}
